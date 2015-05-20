@@ -7,9 +7,10 @@
   Author: Max from MaxTechTV
   This is a simple GPS-Coordinate-Datalogger using the TinyGPS++ Library, the Arduino Wifi Shield, a Micro SD Card and a ublox neo 6m Module
   It saves GPS Coordinates to a CSV File in a configurable Interval.
-  
+CAUTION: The GY-NEO6MV2 Module uses 3.3V Logic. Make sure to only connect The Modules TX Pin when using with a 5V Board to avoid destroying the Module.
+I'm not responsible for any Damage!
   It uses the TinyGPS++ Library (http://arduiniana.org/libraries/tinygpsplus/) written by Mikal Hart.
-  
+
 */
 
 static const int RXPin = 6, TXPin = 3;
